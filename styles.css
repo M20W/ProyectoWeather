@@ -1,0 +1,369 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,900&family=Poppins:wght@300&family=Raleway:wght@200&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+ * {
+     font-family: 'Montserrat', sans-serif;
+     
+ }
+
+
+.containerr {    
+    display: flex;
+    height: 100%;       
+}
+
+.look {
+    display: flex;
+    flex-direction: row;
+    align-items: center;       
+    margin-bottom: 10px;
+}
+
+.data{
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: rgb(246, 246, 246);
+    border: none; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+input:hover {
+    border: none;
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #6998db;    
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.title2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #6998db;    
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.iconWeather {
+    width: 300px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.fa-search {
+    color:white;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+}
+
+.fa-search:hover {
+    cursor: pointer;   
+    color: #24434b; 
+}
+
+
+select {
+    border-radius: 50px;
+    font-size: 21px;
+    background-color: rgb(246, 246, 246);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+select option {
+    transition: all 0.5s ease-in-out;
+    background: white;
+}
+
+select option:hover {
+    color: red;
+}
+
+.izquierda {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;    
+    height: 100%;
+    width: 380px;    
+}
+
+
+
+.buscar {
+font-size: 18px;
+border-radius: 50px;
+color: white;
+background-color: #4e80cf;
+transition: all 0.5s ease-in-out;
+border:none;
+height: 30px;
+width: 110px;
+margin-left: 10px;
+}
+
+.buscar:hover {
+background-color: #c3d2e9;        
+color: #24434b;
+}
+
+.clear {
+font-size: 18px;
+border-radius: 50px;
+color: white;
+background-color: #4e80cf;
+transition: all 0.5s ease-in-out;
+border:none;
+height: 30px;
+width: 110px;
+margin-left: 10px;
+}
+
+.clear:hover {
+    background-color: #c3d2e9;        
+    color: #24434b;
+}
+
+/*Temperatura Now*/
+.icon-principal {
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;      
+}
+
+.iconNow {
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.tempNow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.temp {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;    
+    justify-content: center;
+}
+
+.desc {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+hr {
+    width: 150px    ;
+}
+
+/* cards de temperaturas*/
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+/*
+.weather-container2 {
+}
+*/
+
+.tempsHour {
+    border: 1px solid blue;
+    width: 140px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.tempsHour:hover {
+    border: 2px solid #24434b;
+}
+
+.tempsInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.derecha {
+    background-color: rgb(236, 234, 234);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.date {
+    background-color: #4e80cf;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.iconss {
+    display: flex;
+    justify-content: center;
+}
+
+.iconNormal {    
+height: 70px;
+width: 70px;
+}
+
+.miniContainers {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.box {
+    margin-bottom: 7px;
+    margin-right: 5px;
+    width: 100px;   
+    background-color: #e2e5ea;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secundaryButtons {    
+font-size: 18px;
+border-radius: 50px;
+color: white;
+background-color:#6998db;
+transition: all 0.5s ease-in-out;
+border:none;
+height: 30px;
+margin-left: 10px;
+}
+
+.cityInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;    
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+ }
+ 
+ 
+ main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;   
+ }
+ 
+ 
+ .iconO {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+    cursor: pointer;
+ }
+ 
+ 
+ .iconO:hover {
+    background-color: #e60073;
+    box-shadow:  0 0 2Qpx #e60073 ;
+ }
+ 
+ 
+ .iconO:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+ }
+ 
+ 
+ .iconO:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366 ;
+ }
+ 
+ 
+ .iconO:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+ }
+ 
+ 
+ .iconO i {
+    color: navy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ 
+ 
+ svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+ }
+ 
+ 
+ .iconO:hover circle {
+    stroke-dasharray: 220;
+ }
+ 
+.conteinerTres{
+    height: 100%;
+    width: 380px;
+        display: flex;
+        flex-direction: column;
+    
+ }
+ .conteinerCuatro{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;    
+    height: 100%;
+    width: 380px;   
+ }
+ .containerG {    
+    display: flex;
+    height: 100%;       
+}
